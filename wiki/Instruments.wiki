@@ -22,6 +22,9 @@ pitchLab.reference.Constants
 
 and behaves as a class that shared global variabled within the PitchLab application.
 
+There is a global variable within this class that governs the Strings that will appear in the dropdown 
+menu in PitchLab's main application window.
+
 {{{
 36    public static final String[] AVAILABLE_INSTRUMENTS = {
 37          "Sine", "Piano", "Harpsicord", "Organ", "Oboe", "Flute", "Clarinet", "Guitar", "Strings"
