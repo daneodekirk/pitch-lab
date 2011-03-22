@@ -3,30 +3,30 @@
 = Overview =
 
 There have been three major additions to the !PitchLab application during the course 
-of this project. Firstly, PitchLab and its source code are now accessible via Google Code. 
+of this project. Firstly, !PitchLab and its source code are now accessible via Google Code. 
 Secondly, all the source code has been documented in accordance to Javadoc standards. This 
 documentation is also available [http://pitch-lab.googlecode.com/svn/trunk/doc/index.html here].
 Thirdly, 8 instruments have been added in addition to the default Sine sound used during tests.
-More importantly, however, PitchLab has been integrated with jMusic, allowing additional instruments 
-to be developed and/or added to PitchLab with little code manipulation.
+More importantly, however, !PitchLab has been integrated with jMusic, allowing additional instruments 
+to be developed and/or added to !PitchLab with little code manipulation.
 Instructions for this can be found here [https://code.google.com/p/pitch-lab/wiki/Instruments Adding Instruments]
 
 
 = Details =
 
-PitchLab is designed around the work of Vladimir Chaloupka. Details about the project can be found
+!PitchLab is designed around the work of Vladimir Chaloupka. Details about the project can be found
 at http://www.phys.washington.edu/users/vladi/pitch/JASA_94/abs_pitch.html.
 
 [http://pitch-lab.googlecode.com/svn/trunk/PitchLab.jnlp Launch PitchLab] - this is a BETA jnlp file.
 
-If the above does not work you can download the PitchLab application via the "Downloads" tab above or by 
-clicking here http://pitch- lab.googlecode.com/files/PitchLab-Instruments.jar 
+If the above does not work you can download the !PitchLab application via the "Downloads" tab above or by 
+clicking here http://pitch- lab.googlecode.com/files/!PitchLab-Instruments.jar 
 
 = TODO =
 
-The following are the list of where PitchLab improvements can be made:
+The following are the list of where !PitchLab improvements can be made:
     * Add instruments to all tests - currently instruments are only addable for a Passive Pitch Test.
     * Solidify a mechanism for sharing results via the web through a secure and stable web service.
-    * Integrate PitchLab with Google App Engine for stable support, network, and data storage capabilities.
+    * Integrate !PitchLab with Google App Engine for stable support, network, and data storage capabilities.
     * Overall User Interface enhancements.
     * Add additional desired enhancements here...
