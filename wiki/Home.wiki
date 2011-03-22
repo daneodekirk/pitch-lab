@@ -11,6 +11,8 @@ More importantly, however, !PitchLab has been integrated with jMusic, allowing a
 to be developed and/or added to !PitchLab with little code manipulation.
 Instructions for this can be found here [https://code.google.com/p/pitch-lab/wiki/Instruments Adding Instruments]
 
+PitchLab has also been integrated with jMusic. For more information about jMusic visit this url http://jmusic.ci.qut.edu.au/
+
 
 = Details =
 
