@@ -1,8 +1,8 @@
-#summary How to add additional instruments to PitchLab via the jMusic library
+#How to add additional instruments to PitchLab via the jMusic library
 
 = Introduction =
 
-This will act as a guide for anyone who wants to put additional instruments into PitchLab 
+This will act as a guide for anyone who wants to put additional instruments into !PitchLab 
 for testing purposes. This tutorial will assume that you want to add an {{{"Trumpet"}}} as an 
 instrument.
 
@@ -21,10 +21,10 @@ The Constants.java file is located in the following location:
 pitchLab.reference.Constants
 }}}
 
-and behaves as a class that shares global variables within the PitchLab application.
+and behaves as a class that shares global variables within the !PitchLab application.
 
 The following code is a global variable within this class that governs the Strings that will appear in the dropdown 
-menu in PitchLab's main application window.
+menu in !PitchLab's main application window.
 
 {{{
 36    public static final String[] AVAILABLE_INSTRUMENTS = {
@@ -40,10 +40,10 @@ Find this and code and add the string {{{"Trumpet"}}} to {{{AVAILABLE_INSTRUMENT
 38    };
 }}}
 
-If you recompile PitchLab now, you will notice that {{{"Trumpet"}}} is listed in the dropdown menu of the main window
+If you recompile !PitchLab now, you will notice that {{{"Trumpet"}}} is listed in the dropdown menu of the main window
 just after Strings.
 
-Once this is done, we must move onto the instruments.java file to officially integrate a Trumpet into PitchLab.
+Once this is done, we must move onto the instruments.java file to officially integrate a Trumpet into !PitchLab.
 
 
 = Instruments.java = 
@@ -95,7 +95,7 @@ Looking at the code in Instruments.java we see the following logic:
 
 This simply determines what instrument to use based on a string match. Notice that the strings being matched are
 the strings in the {{{AVAILABLE_INSTRUMENTS}}} global variable.  Therefore, in order to add a the "Trumpet" instrument 
-and integrate it with PitchLab, we must add additional logic. If we focus on the following code:
+and integrate it with !PitchLab, we must add additional logic. If we focus on the following code:
 
 {{{
 
@@ -120,11 +120,11 @@ and add the following:
 
 }}}
 
-we have told PitchLab that if "Trumpet" has been selected from the dropdown menu in the main window, then use the instrument with name {{{TRUMPET}}}.
+we have told !PitchLab that if "Trumpet" has been selected from the dropdown menu in the main window, then use the instrument with name {{{TRUMPET}}}.
 
 The {{{TRUMPET}}} constant is being brought in by jMusic and is one of the default instruments built into the jMusic library.  A complete list of 
 the default instruments can be found here: http://jmusic.ci.qut.edu.au/jmtutorial/JMC_Instruments.html
 
-Now if we recompile PitchLab with these changes to Instruments.java and Constants.java, Trumpet should be available to select from the dropdown.
+Now if we recompile !PitchLab with these changes to Instruments.java and Constants.java, Trumpet should be available to select from the dropdown.
 If we select it and begin a test, then we should hear 5 random notes followed by a sustained random note, and the tests should continue as normal.
 That's it!
