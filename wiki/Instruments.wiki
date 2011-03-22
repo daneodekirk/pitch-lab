@@ -1,4 +1,4 @@
-#How to add additional instruments to PitchLab via the jMusic library
+#summary How to add additional instruments to PitchLab via the jMusic library
 
 = Introduction =
 
