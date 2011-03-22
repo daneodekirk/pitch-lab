@@ -20,7 +20,7 @@ at http://www.phys.washington.edu/users/vladi/pitch/JASA_94/abs_pitch.html.
 [http://pitch-lab.googlecode.com/svn/trunk/PitchLab.jnlp Launch PitchLab] - this is a BETA jnlp file.
 
 If the above does not work you can download the !PitchLab application via the "Downloads" tab above or by 
-clicking here [http://pitch- lab.googlecode.com/files/!PitchLab-Instruments.jar Download PitchLab with Instruments]
+clicking here [http://pitch-lab.googlecode.com/files/!PitchLab-Instruments.jar Download PitchLab with Instruments]
 
 = Accomplishments =
 
