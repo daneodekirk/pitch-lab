@@ -120,4 +120,11 @@ and add the following:
 
 }}}
 
-we have told PitchLab that if "Trumpet" has been selected from the dropdown menu in the main window, then use the instrument with name TRUMPET.
+we have told PitchLab that if "Trumpet" has been selected from the dropdown menu in the main window, then use the instrument with name {{{TRUMPET}}}.
+
+The {{{TRUMPET}}} constant is being brought in by jMusic and is one of the default instruments built into the jMusic library.  A complete list of 
+the default instruments can be found here: http://jmusic.ci.qut.edu.au/jmtutorial/JMC_Instruments.html
+
+Now if we recompile PitchLab with these changes to Instruments.java and Constants.java, Trumpet should be available to select from the dropdown.
+If we select it and begin a test, then we should hear 5 random notes followed by a sustained random note, and the tests should continue as normal.
+That's it!
