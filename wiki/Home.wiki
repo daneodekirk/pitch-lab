@@ -2,7 +2,14 @@
 
 = Introduction =
 
-Add your content here.
+There have been three major additions to the PitchLab application during the course 
+of this project. Firstly, PitchLab and its source code are now accessible via Google Code. 
+Secondly, all the source code has been documented in accordance to Javadoc standards. This 
+documentation is also available [http://pitch-lab.googlecode.com/svn/trunk/doc/index.html here].
+Thirdly, 8 instruments have been added in addition to the default Sine sound used during tests.
+More importantly, however, PitchLab has been integrated with jMusic, allowing additional instruments 
+to be developed and/or added to PitchLab with little code manipulation.
+Instructions for this can be found here [https://code.google.com/p/pitch-lab/wiki/Instruments Adding Instruments]
 
 
 = Details =
