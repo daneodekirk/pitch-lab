@@ -1,8 +1,7 @@
-#summary One-sentence summary of this page.
+#How to add additional instruments to PitchLab via the jMusic library
 
 = Introduction =
 
-Add your content here.
 
 
 = Details =
