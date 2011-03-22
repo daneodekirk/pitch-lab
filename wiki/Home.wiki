@@ -2,7 +2,7 @@
 
 = Overview =
 
-There have been three major additions to the PitchLab application during the course 
+There have been three major additions to the !PitchLab application during the course 
 of this project. Firstly, PitchLab and its source code are now accessible via Google Code. 
 Secondly, all the source code has been documented in accordance to Javadoc standards. This 
 documentation is also available [http://pitch-lab.googlecode.com/svn/trunk/doc/index.html here].
