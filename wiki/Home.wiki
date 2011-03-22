@@ -1,6 +1,6 @@
-#summary Basic overview of PitchLab
+#summary One-sentence summary of this page.
 
-= Introduction =
+= Overview =
 
 There have been three major additions to the PitchLab application during the course 
 of this project. Firstly, PitchLab and its source code are now accessible via Google Code. 
@@ -14,9 +14,19 @@ Instructions for this can be found here [https://code.google.com/p/pitch-lab/wik
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+PitchLab is designed around the work of Vladimir Chaloupka. Details about the project can be found
+at http://www.phys.washington.edu/users/vladi/pitch/JASA_94/abs_pitch.html.
 
-[http://pitch-lab.googlecode.com/svn/trunk/PitchLab.jnlp Launch PitchLab]
+[http://pitch-lab.googlecode.com/svn/trunk/PitchLab.jnlp Launch PitchLab] - this is a BETA jnlp file.
+
+If the above does not work you can download the PitchLab application via the "Downloads" tab above or by 
+clicking here http://pitch- lab.googlecode.com/files/PitchLab-Instruments.jar 
+
+= TODO =
+
+The following are the list of where PitchLab improvements can be made:
+    * Add instruments to all tests - currently instruments are only addable for a Passive Pitch Test.
+    * Solidify a mechanism for sharing results via the web through a secure and stable web service.
+    * Integrate PitchLab with Google App Engine for stable support, network, and data storage capabilities.
+    * Overall User Interface enhancements.
+    * Add additional desired enhancements here...
