@@ -2,9 +2,33 @@
 
 = Introduction =
 
+This will act as a guide for anyone who wants to put additional instruments into PitchLab 
+for testing purposes.
 
 
-= Details =
+= Files =
+
+There are 2 files that will need to be edited in order to add an instrument:
+  * Constants.java
+  * Instruments.java
+
+= Constants.java = 
+
+The Constants.java file is located in the following location:
+
+{{{
+pitchLab.reference.Constants
+}}}
+
+and behaves as a class that shared global variabled within the PitchLab application.
+
+{{{
+36    public static final String[] AVAILABLE_INSTRUMENTS = {
+37          "Sine", "Piano", "Harpsicord", "Organ", "Oboe", "Flute", "Clarinet", "Guitar", "Strings"
+38    };
+}}}
+
+
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
